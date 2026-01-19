@@ -25,9 +25,12 @@ const startTimer = () => {
     if (timeInSeconds.value > 0) {
       timeInSeconds.value--
     } else {
-      // Quando o tempo acaba
+      // --- MUDANÇA AQUI ---
       pauseTimer()
-      alert('Tempo esgotado! Hora de trocar o modo.')
+      
+      const audio = new Audio('/alarm.mp3')
+      audio.play()
+    
     }
   }, 1000)
 }

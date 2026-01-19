@@ -1,5 +1,7 @@
-# Vue 3 + Vite
+# FocusUp! - Um Timer Pomodoro Personalizável
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Disponível online em: https://focus-up-nu.vercel.app/
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+O que é: Um cronômetro de foco (25 min) e descanso (5 min), mas com configurações personalizáveis pelo usuário. Ele toca um som ou mostra um alerta visual ao acabar.
+
+*Conceitos do Vue*: Ciclo de vida (onMounted, onUnmounted para o timer não "vazar"), Watchers (para vigiar quando o tempo chega a zero) e formatação de texto condicional.
